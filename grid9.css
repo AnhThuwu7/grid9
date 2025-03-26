@@ -1,0 +1,44 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1r 1fr;
+    row-gap: 10px;
+    text-align: center;    
+    color: white;
+    grid-template-areas: 
+    "aa aa aa aa aa aa"
+    "bb bb bb bb bb bb "
+    "cc cc dd dd ee ee"
+    "ff ff ff ff ff ff"
+
+}
+.o{
+    align-content: center;
+    height: 60px;
+}
+.so1{
+    grid-area: aa;
+    background-color: rgb(227, 78, 78);
+}
+.so2{
+    grid-area: bb;
+    background-color: rgb(251, 180, 56);
+}
+.so3{
+    
+    grid-area: cc;
+    background-color: #f7de4f;
+}
+.so4{
+    grid-area: dd;
+    background-color: rgb(149, 244, 118);
+}
+.so5{
+    grid-area: ee;
+    background-color: rgb(78, 243, 177);
+}
+
+.so6{
+    color: white;
+    grid-area: ff;
+    background-color: rgb(211, 117, 248);
+}
